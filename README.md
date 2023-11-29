@@ -16,7 +16,7 @@ I created this via:
 * `npm install @mui/material @emotion/react @emotion/styled`
 * `npm install @fontsource/roboto`
 
-Add code
+### Add code
 
 ```javascript
 import '@fontsource/roboto/300.css';
@@ -27,7 +27,21 @@ import '@fontsource/roboto/700.css';
 
 ## Add react-query
 
-* react-query: `npm install @tanstack/react-query`
+* `npm install @tanstack/react-query`
+
+## Add prettier
+
+* `npm install --save-dev --save-exact prettier eslint-plugin-prettier eslint-config-prettier`
+
+### Add code to eslintrc
+
+```javascript
+  "extends": ["plugin:prettier/recommended"]
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+```
 
 ## Usage
 
