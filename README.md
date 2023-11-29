@@ -29,6 +29,10 @@ import '@fontsource/roboto/700.css';
 
 * `npm install @tanstack/react-query`
 
+## Add zod
+
+* `npm install zod`
+
 ## Add prettier
 
 * `npm install --save-dev --save-exact prettier eslint-plugin-prettier eslint-config-prettier`
