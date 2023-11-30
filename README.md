@@ -33,17 +33,23 @@ import '@fontsource/roboto/700.css';
 
 * `npm install zod`
 
-## Add prettier
+## Add react-error-boundary
 
+* `npm install react-error-boundary`
+
+## Add lint rules
+
+* `npm install eslint-plugin-unused-imports`
 * `npm install --save-dev --save-exact prettier eslint-plugin-prettier eslint-config-prettier`
 
 ### Add code to eslintrc
 
 ```javascript
   "extends": ["plugin:prettier/recommended"]
-  "plugins": ["prettier"],
+  "plugins": ["unused-imports", "prettier"],
   "rules": {
-    "prettier/prettier": "error"
+    "unused-imports/no-unused-imports": "error",
+    "prettier/prettier": "error",
   }
 ```
 
