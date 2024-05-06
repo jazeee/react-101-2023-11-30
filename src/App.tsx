@@ -1,5 +1,5 @@
-import { CssBaseline, ThemeProvider } from "@mui/material";
-import { APP_THEME } from "./Mui/theme";
+import { CssBaseline, ThemeProvider } from '@mui/material';
+import { APP_THEME } from './Mui/theme';
 
 export function App() {
   return (
