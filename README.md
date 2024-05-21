@@ -1,6 +1,13 @@
 # React + TypeScript + Vite
 
-This is a template vite project with no styling, etc.
+This is a template vite project with basic MUI styling, and base packages.
+
+## Usage
+
+* Run `npm install`
+* Run `npm run dev`
+
+## Notes
 
 I created this via:
 
@@ -53,7 +60,3 @@ import '@fontsource/roboto/700.css';
   }
 ```
 
-## Usage
-
-* Run `npm install`
-* Run `npm run dev`
