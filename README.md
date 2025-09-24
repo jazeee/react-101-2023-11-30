@@ -11,6 +11,7 @@ This is a template vite project with basic MUI styling, and base packages.
 
 I created this via:
 
+
 * `npm create vite@latest`
 * Followed instructions
 * Pick React -> TypeScript + SWC
